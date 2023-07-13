@@ -1,6 +1,8 @@
 # Knitted synthesisers
 
-Instructions for making a 
+Wouldn't you like to make [sounds with your trousers](https://www.kickstarter.com/projects/1400947701/drumpants-an-entire-band-in-your-pocket/posts/774182/comments)? Ever looked at a piece of knitwear and thought, I'd like this to produce a horrible noise? Look no further.
+
+This tutorial is based on a workshop run by Agnes. These instructions are based on a tutorial for making two-stage astable oscillators on [Electronics Tutorials](https://www.electronics-tutorials.ws/waveforms/555_oscillator.html), which also gives a lot more information on the electronic theory.
 
 ## theory
 
@@ -43,34 +45,24 @@ input exceeds a certain value
 * jumper wires
 * 5V power supply
 * 4 crocodile clip cables
-* a 68kΩ resistor
-* a 8.2kΩ resistor
-* a 10k variable resistor
-* a 100k variable resistor
+* a 100kΩ resistor
+* a 10kΩ resistor
+* a 10kΩ variable resistor
+* a 100kΩ variable resistor
 * some conductive knit samples
 
-### how to measure resistance using a multimeter 
+### note: measuring resistance using a multimeter 
 
 Attach the crocodile clips to the edge of the sample, and connect the other ends to the multimeter. Move the wheel of the multimeter to the setting with the Ω symbol, and press the 'mode' button until you also see a Ω on the screen.
 
 Once the system is connected, you should see a reading of the sample's resistance on the multimeter. Try stretching the sample and the number should decrease! Note that the letters next to Ω refer to the magnitude: k stands for 'kilo' (x1000), and M stands for 'mega' (x 10,000). You want your sample to be at least a few kΩ for this to work.
 
-### how to read circuit diagrams
+### note: reading circuit diagrams
+
+On a chip like the 555 timer, pins are numbered from 1-8, and are numbered counter-clockwise, beginning with the pin to the left of the notched end. On the circuit diagram, pins don't appear in this order -- this allows the wires to be represented without needing to cross over one another, but can be confusing when translating into reality.
 
 
-
-calculating resistor and capacitor size
-
-the smaller the capacitor, the less time it will take to fill up, and the higher the frequency
-
-the smaller
-
-* breadboard
-* 1/4" jack breakout
-* a sample of knitting made with conductive yarn (measure the resistance)
-* a resistor with the same resistance
-*
-*
+Here's what the circuit looks like when assembled:
 
 ### knitted modular synthesisers
 
