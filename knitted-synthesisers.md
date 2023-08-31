@@ -35,7 +35,7 @@ input exceeds a certain value
 
 ## practice
 
-### you will need
+### to make a 2-stage synth, you will need
 * 3.5mm jack breakout (socket)
 * a speaker or pair of headphones
 * a breadboard
@@ -48,6 +48,8 @@ input exceeds a certain value
 * a 10k variable resistor
 * a 100k variable resistor
 * some conductive knit samples
+* a 10μF capacitor
+* a 100nF capacitor
 
 ### how to measure resistance using a multimeter 
 
